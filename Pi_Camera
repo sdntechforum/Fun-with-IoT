@@ -5,3 +5,11 @@ sudo reboot
 ! connect camera!
 ! verify detection of camera
 vcgencmd get_camera
+
+
+! Capture still images
+raspistill -t 10000 -o file.jpeg
+
+! cature Video
+raspivid -t 20000 -o vid.h264
+
