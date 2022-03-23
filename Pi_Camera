@@ -1,0 +1,7 @@
+sudo raspi-config
+enable Camera 
+sudo reboot
+!
+! connect camera!
+! verify detection of camera
+vcgencmd get_camera
